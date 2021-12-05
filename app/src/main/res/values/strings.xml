@@ -1,5 +1,10 @@
 <resources>
-    <string name="app_name">Lesson</string>
-    <string name="next_activity">next_activity</string>
+    <string name="app_name">Design</string>
+    <string name="one_design">one_design</string>
     <string name="FANIS">Fanis</string>
+    <string name="one_text_design">one_text_design</string>
+    <string name="two_design">two_design</string>
+    <string name="tree_design">tree_design</string>
+    <string name="two_text_design">two_text_design</string>
+    <string name="all_text_design">all_text_design</string>
 </resources>

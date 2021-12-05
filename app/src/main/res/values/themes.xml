@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.Lesson" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimary">@color/my_color_for_button</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
@@ -12,5 +12,40 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="android:textViewStyle">@style/Theme.MyApplication.all_TextView</item>
     </style>
+
+    <style name="Theme.MyApplication.all_TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">30sp</item>
+        <item name="android:padding">10sp</item>
+        <item name="fontFamily">casual</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.MyApplication.one_TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">#E91E63</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="fontFamily">sans-serif-black</item>
+    </style>
+
+    <style name="Theme.MyApplication.two_TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:background">#FFEB3B</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Theme.MyApplication.one_Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/purple_200</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="Theme.MyApplication.two_Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+//* К кнопке ниже применяю наследование стиля от первой кнопки//
+    <style name="Theme.MyApplication.tree_Button" parent="Theme.MyApplication.one_Button">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
 </resources>

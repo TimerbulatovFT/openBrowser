@@ -11,9 +11,6 @@
         android:theme="@style/Theme.Lesson">
 
         <activity
-            android:name="ru.itfanis.Call.SecondActivity"
-            android:exported="false" />
-        <activity
             android:name="ru.itfanis.Call.MainActivity"
             android:exported="true">
             <intent-filter>
